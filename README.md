@@ -1,5 +1,5 @@
 # python-socket
 
-This project is part of an assigment for 2110471 COMP NETWORK I course, Academic Year 2021, Chulalongkorn University (Feb 2022).
+Simple chat app with CLI. Adjusted from tutorial: https://realpython.com/python-sockets/
 
-Adjusted from tutorial: https://realpython.com/python-sockets/#application-client-and-server
+This project is part of an assigment for 2110471 COMP NETWORK I course, Academic Year 2021, Chulalongkorn University (Feb 2022).
