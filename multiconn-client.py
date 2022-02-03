@@ -5,7 +5,6 @@ import types
 SERVER_HOST = '127.0.0.1'
 SERVER_PORT = 33169
 
-# แก้ให้เป็นการโต้ตอบ
 messages = [b'Message 1 from client.', b'Message 2 from client.']
 
 sel = selectors.DefaultSelector()
@@ -55,7 +54,7 @@ def service_connection(key, mask):
             sent = sock.send(data.outb) 
             data.outb = data.outb[sent:]
 
-start_connections(SERVER_HOST, SERVER_PORT, 2)
+start_connections(SERVER_HOST, SERVER_PORT, 1)
 lsock.setblocking(False)
 sel.register(lsock, selectors.EVENT_READ, data=None)
 
